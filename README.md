@@ -74,7 +74,7 @@ Business Insights
      ↓
 Recommendations
 
-🧹 Data Cleaning & Validation
+## 🧹 Data Cleaning & Validation
 Power Query was used for data preparation and validation.
 Key activities:
 - Data type validation
@@ -91,7 +91,7 @@ Errors	0%
 Empty values	0%
 Distinct Transaction IDs	250,000
 
-🗂️ Data Model
+## 🗂️ Data Model
 A dedicated Calendar table was created for time-based analysis.
 Calendar
     │
@@ -105,7 +105,11 @@ The Calendar table supports:
 - Date filtering
 - Time-based analysis
 
+<<<<<<< HEAD
 📐 DAX Measures
+=======
+## 📐 DAX Measures
+>>>>>>> 605fae9 (Add dashboard previews to README)
 Key measures created:
 - Total Transactions
 - Total Transaction Value
@@ -120,7 +124,11 @@ Key measures created:
 - Fraud Amount Rate
 - Average Fraud Transaction Value
 
+<<<<<<< HEAD
 📊 Power BI Dashboard
+=======
+## 📊 Power BI Dashboard
+>>>>>>> 605fae9 (Add dashboard previews to README)
 Page 1 — UPI Transaction Overview
 KPI Cards:
 - Total Transactions: 250K
@@ -135,7 +143,8 @@ Slicers:
 - Sender State
 - Transaction Type
 - Month
-Page 2 — Fraud & Risk Analysis
+
+## Page 2 — Fraud & Risk Analysis
 KPI Cards:
 - Fraud Transactions: 480
 - Fraud Rate: 0.192%
@@ -151,7 +160,11 @@ Slicers:
 - Transaction Type
 - Device Type
 
+<<<<<<< HEAD
 🔎 Key Findings
+=======
+## 🔎 Key Findings
+>>>>>>> 605fae9 (Add dashboard previews to README)
 Fraud by Transaction Type
 Transaction Type	Fraud Transactions
 P2P	206
@@ -178,7 +191,7 @@ Fraud by Device Type
 Android represents approximately 75.8% of flagged fraud transactions.
 These findings describe patterns within this project dataset and should not be interpreted as evidence that a particular state, device, or transaction type is inherently fraudulent.
 
-💡 Business Insights
+## 💡 Business Insights
 1. P2P is the largest contributor to flagged fraud transactions.
 2. P2P and P2M together account for approximately 77.7% of flagged fraud records.
 3. Grocery has the highest flagged fraud count among merchant categories.
@@ -186,14 +199,22 @@ These findings describe patterns within this project dataset and should not be i
 5. Android accounts for the largest share of flagged fraud transactions.
 6. The fraud amount rate (0.219%) is slightly higher than the fraud transaction rate (0.192%).
 
+<<<<<<< HEAD
 🚀 Business Recommendations
+=======
+## 🚀 Business Recommendations
+>>>>>>> 605fae9 (Add dashboard previews to README)
 1. Strengthen risk monitoring for P2P transactions.
 2. Prioritize additional risk controls for P2P and P2M transaction flows.
 3. Increase monitoring of high-volume/high-fraud merchant categories such as Grocery and Food.
 4. Use device-level information as one input for fraud risk scoring.
 5. Use targeted risk-based monitoring rather than blanket transaction blocking.
 
+<<<<<<< HEAD
 🔮 Future Enhancements
+=======
+## 🔮 Future Enhancements
+>>>>>>> 605fae9 (Add dashboard previews to README)
 - Real-time transaction monitoring
 - Automated fraud alerts
 - Risk scoring
@@ -202,7 +223,11 @@ These findings describe patterns within this project dataset and should not be i
 - Behavioral transaction analysis
 - Automated Power BI refresh
 
+<<<<<<< HEAD
 📁 Project Structure
+=======
+## 📁 Project Structure
+>>>>>>> 605fae9 (Add dashboard previews to README)
 UPI-Digital-Payment-Fraud-Risk-Analytics/
 │
 ├── 01_Data/
@@ -223,12 +248,26 @@ UPI-Digital-Payment-Fraud-Risk-Analytics/
 └── README.md
 The raw dataset is not included in the public repository unless its distribution/license terms permit redistribution.
 
-📌 Project Outcome
+## 📷 Dashboard Preview
+
+### Page 1 — UPI Transaction Overview
+
+![Page 1 - UPI Transaction Overview](Screenshots/Page1.png)
+
+### Page 2 — Fraud & Risk Analysis
+
+![Page 2 - Fraud & Risk Analysis](Screenshots/Page2.png)
+
+## 📌 Project Outcome
 This project demonstrates an end-to-end data analytics workflow:
 Data → Cleaning → ETL → Data Modeling → DAX → Visualization → Fraud Analysis → Business Insights → Recommendations
 The project demonstrates practical experience with Power BI, Power Query, DAX, data modeling, data validation, interactive dashboards, and business-oriented data analysis.
 
+<<<<<<< HEAD
 👨‍💻 Author
+=======
+## 👨‍💻 Author
+>>>>>>> 605fae9 (Add dashboard previews to README)
 Mohamed Irsadh
 Artificial Intelligence and Data Science Graduate
 Aspiring Data Analyst / Data Analytics Professional
