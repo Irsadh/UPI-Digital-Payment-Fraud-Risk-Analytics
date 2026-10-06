@@ -53,6 +53,7 @@ The project focuses on:
 ## 🔄 Project Workflow
 
 ```text
+
 Raw Dataset
      ↓
 Data Cleaning & Validation
@@ -103,6 +104,7 @@ The Calendar table supports:
 - Chronological sorting
 - Date filtering
 - Time-based analysis
+
 📐 DAX Measures
 Key measures created:
 - Total Transactions
@@ -117,6 +119,7 @@ Key measures created:
 - Fraud Transaction Value
 - Fraud Amount Rate
 - Average Fraud Transaction Value
+
 📊 Power BI Dashboard
 Page 1 — UPI Transaction Overview
 KPI Cards:
@@ -147,6 +150,7 @@ Slicers:
 - Sender State
 - Transaction Type
 - Device Type
+
 🔎 Key Findings
 Fraud by Transaction Type
 Transaction Type	Fraud Transactions
@@ -181,12 +185,14 @@ These findings describe patterns within this project dataset and should not be i
 4. Maharashtra and Karnataka show the highest flagged transaction concentrations among the listed states.
 5. Android accounts for the largest share of flagged fraud transactions.
 6. The fraud amount rate (0.219%) is slightly higher than the fraud transaction rate (0.192%).
+
 🚀 Business Recommendations
 1. Strengthen risk monitoring for P2P transactions.
 2. Prioritize additional risk controls for P2P and P2M transaction flows.
 3. Increase monitoring of high-volume/high-fraud merchant categories such as Grocery and Food.
 4. Use device-level information as one input for fraud risk scoring.
 5. Use targeted risk-based monitoring rather than blanket transaction blocking.
+
 🔮 Future Enhancements
 - Real-time transaction monitoring
 - Automated fraud alerts
@@ -195,6 +201,7 @@ These findings describe patterns within this project dataset and should not be i
 - Anomaly detection
 - Behavioral transaction analysis
 - Automated Power BI refresh
+
 📁 Project Structure
 UPI-Digital-Payment-Fraud-Risk-Analytics/
 │
@@ -220,6 +227,7 @@ The raw dataset is not included in the public repository unless its distribution
 This project demonstrates an end-to-end data analytics workflow:
 Data → Cleaning → ETL → Data Modeling → DAX → Visualization → Fraud Analysis → Business Insights → Recommendations
 The project demonstrates practical experience with Power BI, Power Query, DAX, data modeling, data validation, interactive dashboards, and business-oriented data analysis.
+
 👨‍💻 Author
 Mohamed Irsadh
 Artificial Intelligence and Data Science Graduate
